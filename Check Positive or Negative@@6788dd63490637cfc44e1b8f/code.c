@@ -1,7 +1,8 @@
 #include<stdio.h>
-int main() {
+int main() 
+{
     int a;
-    scanf("%d",a);
+    scanf("%d",&a);
     if(a>0)
     {
         printf("Positive");
@@ -10,9 +11,9 @@ int main() {
     {
         printf("Zero");
     }
-    else{
+    else
+    {
         printf("Negative");
     }
-   
-    return 0;
+   return 0;
 }
