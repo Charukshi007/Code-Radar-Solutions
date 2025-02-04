@@ -2,10 +2,10 @@
 int main() 
 {
     char x;
-    scanf("%c",x);
+    scanf("%c",&x);
     if(x=='a' || x=='e' || x=='i' || x=='o' || x=='u')
-    printf("Vowel")
+    printf("Vowel");
     else
-    printf("Consonant")
+    printf("Consonant");
     return 0;
 }
