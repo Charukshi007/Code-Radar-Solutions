@@ -10,6 +10,6 @@ int main()
    else if(num%2==0 || num%3==0 || num%5==0 || num%7==0)
    printf("Not Prime");
    else
-   printf("Prime")
+   printf("Prime");
     return 0;
 }
