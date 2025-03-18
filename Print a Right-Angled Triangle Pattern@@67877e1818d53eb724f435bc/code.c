@@ -2,7 +2,8 @@
 
 int main()
 {
-    int rows = 5;
+    int rows;
+    scanf("d",&rows);
 
     
     for (int i = 0; i < rows; i++) {
