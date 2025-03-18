@@ -3,7 +3,8 @@
 
 int main()
 {
-    int rows = 5;
+    int rows ;
+    scanf("%d",&rows);
 
     // first loop is for printing the rows
     for (int i = 0; i < rows; i++) {
