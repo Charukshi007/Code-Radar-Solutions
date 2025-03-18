@@ -10,7 +10,7 @@ int main()
     for (int i = 0; i < rows; i++) {
 
         // loop for printing leading whitespaces
-        for (int j = 0; j < 2 * (rows - i) - 1; j++) {
+        for (int j = 0; j < rows - i - 1; j++) {
             printf(" ");
         }
 
