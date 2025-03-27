@@ -5,10 +5,10 @@ int main()
     char ch = 'A';
 
     scanf("%d",&rows);
-    for(i=1;i<=rows;i++)
+    for(int i=1;i<=rows;i++)
     {
          ch = 'A'
-        for(j=1;j<=i;j++)
+        for(int j=1;j<=i;j++)
         {
             printf("%c",ch);
             ch++;
