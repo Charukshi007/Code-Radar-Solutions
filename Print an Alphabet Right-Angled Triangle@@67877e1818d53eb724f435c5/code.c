@@ -5,9 +5,9 @@ int main()
     char ch = 'A';
 
     scanf("%d",&rows);
-    for(int i=1;i<=rows;i++)
+    for(int i = 1;i <= rows;i++)
     {
-         ch = 'A'
+         ch = 'A';
         for(int j=1;j<=i;j++)
         {
             printf("%c",ch);
