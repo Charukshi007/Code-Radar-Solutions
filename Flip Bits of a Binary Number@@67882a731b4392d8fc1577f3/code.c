@@ -3,12 +3,12 @@ int main()
 {
      int num,result;
 
-    scanf("%u",&num);
+    scanf("%d",&num);
 
     result = ~num;
 
     
-    printf("%u\n",result);
+    printf("%d\n",result);
 
     return 0;
 }
