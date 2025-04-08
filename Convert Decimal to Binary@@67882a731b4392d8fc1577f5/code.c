@@ -1,4 +1,3 @@
-// Your code here...
 #include<stdio.h>
 void printBinary(unsigned int num){
     int i;
