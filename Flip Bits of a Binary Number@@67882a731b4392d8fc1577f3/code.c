@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    unsigned int num,result;
+     int num,result;
 
     scanf("%u",&num);
 
