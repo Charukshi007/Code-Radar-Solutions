@@ -5,9 +5,9 @@ int countTrailingZeroes(unsigned int num)
     if(num == 0)
     return 32;
 
-    while ((num & 1)==0){
+    while ((num & 1) == 0){
         count++;
-        num >> 1;
+        num >>= 1;
     }
 
     return count;
