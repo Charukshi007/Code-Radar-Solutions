@@ -7,7 +7,8 @@ int main()
 
     result = ~num;
 
-    printf("%u\n",num);
+    
     printf("%u\n",result);
+
     return 0;
 }
